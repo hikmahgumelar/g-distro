@@ -4,25 +4,23 @@ distro ini di peruntukan untuk environtment blockchain, yang di harapkan adalah 
 sehingga resource hanya di prioritaskan untuk blockchain network dan bukan hanya itu, di harapkan distro ini dapat digunakan untuk embeded system.
 
 - Kenapa harus membuat distro baru, misal menggunakan alpine yang sudah minimalis?
-  jawabannya: 
-  kami membuat distro ini dengan goals lebih minimal dan dari security kami mengharapkan distro yang immutable sehingga tamper data atau pembobolan tidak terjadi di distro ini.
-   kami memilih paket yang di gunakan dengan seleksi ketat sampai dependensinya
-linux ini menggunakan LFS sebagai base dan 
-untuk mencapai itu kami harus lebih extra dengan membuat distro sendiri yang nantinya akan di gunakan di network blockchain EVM Kompatible, Solana 
-dan yang lainnya.
+  
+jawabannya: 
+Kami membuat distro ini dengan goals lebih minimal dan dari security kami mengharapkan distro yang immutable sehingga tamper data atau pembobolan tidak terjadi di distro ini itu yang di harapkan walaupun tidak ada system 100% aman.
 
-untuk Q&A yang lain kami akan buat berbarengan server repo.
-dan untuk distro ini package yang tersedia hanya di fokuskan untuk blockchain dengan seleksi ketat dan tentunya tidak ada perubahan dari kami.
-tugas kami hanya membangun dan menseleksi paket dengan ketat sampai dependensinya.
+Kami memilih paket yang di gunakan dengan seleksi ketat sampai dependensinya dan linux ini menggunakan LFS sebagai base, dan untuk mencapai itu kami harus lebih extra dengan membuat distro sendiri, yang nantinya akan di gunakan di network blockchain EVM Kompatible, Solana, Optimis, ARB dll.
+
+Untuk Q&A yang lain kami akan buat bersamaan dengan server repo paket, dan untuk distro ini paket yang tersedia hanya di fokuskan untuk blockchain dengan seleksi ketat dan tentunya tidak ada perubahan dari kami.
+tugas kami hanya membangun dan menseleksi paket dengan ketat sampai dependensi yang di gunakan.
 
 dan kami pada tahun 2021 sudah membuat distro untuk ETH validator menggunakan g-distro-alpha yang berjalan di 50 nodes sampai saat ini.
 dan telah menjadi validator selama 4 tahun dengan aman dan hanya sekali setup dengan paket manager hanya menggunakan bash script.
 untuk paket manager kami coba beralih menggunakan bahasa lain.
 
 distro ini sedang kami coba untuk vpn mysterium sebagai node dan belum ada 1 tahun, dengan pilihan region france menggunakan cpu 1 memory 1Gb 11 nodessudah berjalan 6 di region france dan sisanya kami sebar di beberapa region, untuk saat ini resource di bawah 20% karena vpn mysterium hanya menggunakan network.
-walau pendapatan dari membangun node mysterium hanya untuk bayar sewa :) membuktikan g-distro-alpha untuk utilitas resource dan systemnya yang immutable telah membuktikan yang menurut kami dapat di bangun untuk hal lain.
-dan kami memutuskan untuk membangun versi g-distro-beta sebelum release.
-dan saat ini hanya tim kami yang menseleksi paket-paket.
+walau pendapatan dari membangun node mysterium hanya untuk bayar sewa 😂 , dan ini membuktikan g-distro-alpha untuk utilitas resource dan systemnya yang immutable telah membuktikan yang menurut kami dapat di bangun untuk hal lain.
+kami memutuskan untuk membangun versi g-distro-beta sebelum versi release, dan saat ini hanya tim kami yang menseleksi paket-paket.
+
 distro ini sifatnya tidak tertutup hanya tim didalamnya yang tertutup dan introvert akut😂.
 
 ## 🗂️ Direktori Utama
