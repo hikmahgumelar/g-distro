@@ -13,7 +13,7 @@ Kami memilih paket yang di gunakan dengan seleksi ketat sampai dependensinya dan
 Untuk Q&A yang lain kami akan buat bersamaan dengan server repo paket, dan untuk distro ini paket yang tersedia hanya di fokuskan untuk blockchain dengan seleksi ketat dan tentunya tidak ada perubahan dari kami.
 tugas kami hanya membangun dan menseleksi paket dengan ketat sampai dependensi yang di gunakan.
 
-dan kami pada tahun 2021 sudah membuat distro untuk ETH validator menggunakan g-distro-alpha yang berjalan di 50 nodes sampai saat ini.
+dan kami pada tahun 2021 sudah membuat distro untuk ETH validator menggunakan g-distro-alpha yang berjalan di 5 nodes sampai saat ini.
 dan telah menjadi validator selama 4 tahun dengan aman dan hanya sekali setup dengan paket manager hanya menggunakan bash script.
 untuk paket manager kami coba beralih menggunakan bahasa lain.
 
